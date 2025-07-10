@@ -550,38 +550,195 @@ export default function Index() {
 
       {/* Partners & Affiliations Section */}
       <section id="partners" className="py-24 bg-background">
-        <div className="container mx-auto px-4 text-center">
-          <Badge variant="outline" className="mb-4">
-            Partners
-          </Badge>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-            Partners & Affiliations
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
-            We work with trusted partners to deliver comprehensive marketing
-            solutions and drive exceptional results for our clients.
-          </p>
-          <a
-            href="https://swellpartners.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all hover:scale-105"
-          >
-            Visit Swell Partners
-            <svg
-              className="ml-2 w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <Badge variant="outline" className="mb-4">
+              Partners
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+              Partners & Affiliations
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              We work with trusted partners to deliver comprehensive marketing
+              solutions and drive exceptional results for our clients.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <a
+              href="https://swellpartners.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 border border-border rounded-lg hover:border-primary/50 transition-all hover:scale-105 hover:shadow-lg"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
-          </a>
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  Swell Partners
+                </h3>
+                <svg
+                  className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </div>
+              <p className="text-muted-foreground mt-2 text-sm">
+                Strategic partnerships and collaborations
+              </p>
+            </a>
+
+            <a
+              href="https://www.swellcx.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 border border-border rounded-lg hover:border-primary/50 transition-all hover:scale-105 hover:shadow-lg"
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  Swell CX
+                </h3>
+                <svg
+                  className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </div>
+              <p className="text-muted-foreground mt-2 text-sm">
+                Customer experience optimization
+              </p>
+            </a>
+
+            <a
+              href="https://www.swellmarketingadvisors.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 border border-border rounded-lg hover:border-primary/50 transition-all hover:scale-105 hover:shadow-lg"
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  Swell Marketing Advisors
+                </h3>
+                <svg
+                  className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </div>
+              <p className="text-muted-foreground mt-2 text-sm">
+                Strategic marketing consultation
+              </p>
+            </a>
+
+            <a
+              href="https://swellinc.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 border border-border rounded-lg hover:border-primary/50 transition-all hover:scale-105 hover:shadow-lg"
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  Swell Inc
+                </h3>
+                <svg
+                  className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </div>
+              <p className="text-muted-foreground mt-2 text-sm">
+                Corporate solutions and services
+              </p>
+            </a>
+
+            <a
+              href="https://swellstart.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 border border-border rounded-lg hover:border-primary/50 transition-all hover:scale-105 hover:shadow-lg"
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  Swell Start
+                </h3>
+                <svg
+                  className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </div>
+              <p className="text-muted-foreground mt-2 text-sm">
+                Startup growth and acceleration
+              </p>
+            </a>
+
+            <a
+              href="https://www.swellmktg.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 border border-border rounded-lg hover:border-primary/50 transition-all hover:scale-105 hover:shadow-lg"
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  Swell MKTG
+                </h3>
+                <svg
+                  className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </div>
+              <p className="text-muted-foreground mt-2 text-sm">
+                Full-service marketing solutions
+              </p>
+            </a>
+          </div>
         </div>
       </section>
 
