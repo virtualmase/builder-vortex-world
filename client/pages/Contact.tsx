@@ -405,6 +405,51 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-white border-t border-gray-200">
+        <div className="container mx-auto px-4 py-12">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">S</span>
+              </div>
+              <span className="font-bold text-xl text-gray-900">SWELL</span>
+            </div>
+            <div className="flex flex-wrap items-center space-x-6 text-sm">
+              <a
+                href="/"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
+                Home
+              </a>
+              <a
+                href="/about"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
+                About
+              </a>
+              <a
+                href="/legal"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="/legal"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
+                Terms of Service
+              </a>
+            </div>
+          </div>
+          <div className="border-t border-gray-200 mt-8 pt-8 text-center">
+            <p className="text-gray-500">
+              &copy; 2024 SWELL Attribution Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
