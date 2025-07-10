@@ -1,3 +1,4 @@
+import * as React from "react";
 import { TestimonialCarousel } from "../components/TestimonialCarousel";
 
 export default function Index() {
